@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8" xmlns="http://www.w3.org/1999/html">
+<html>
+<body>
+
+<header>
+    <h1> Most important heading </h1>
+    <h3> Less important heading </h3>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About us</a></li>
+    </ul>
+</nav>
+
+<article>
+    <h1>The article title</h1>
+    <p>Contents of the article element</p>
+</article>
+
+<article>
+    <h1>Welcome</h1>
+    <section>
+        <h1>Heading</h1>
+        <p>content or image</p>
+    </section>
+</article>
+
+<article>
+    <h1>Gifts for everyone</h1>
+    <p>This website will be the best place for choosing gifts</p>
+    <aside>
+        <p>Gifts will be delivered to you within 24 hours</p>
+    </aside>
+</article>
+
+<audio src="audio.mp3" controls>
+    Audio element not supported by your browser
+</audio>
+<audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    <source src="audio.ogg" type="audio/ogg">
+    Audio element not supported by your browser.
+</audio>
+
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    Video is not supported by your browser
+</video>
+<video controls autoplay loop>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    Video is not supported by your browser
+</video>
+
+Status:
+<progress min="0" max="100" value="35">
+</progress>
+
+<img draggable="true"/>
+<img src="image.svg" alt="" height="300"/>
+<svg width="2000" height="2000">
+    <circle cx="80" cy="80" r="50" fill="green"/>
+</svg>
+
+<svg width="2000" height="2000">
+    <rect width="300" height="100"
+          x="20" y="20" fill="green"/>
+</svg>
+
+<svg width="400" height="410">
+    <line x1="10" y1="10" x2="200" y2="100"
+          style="stroke:#000000; stroke-linecap:round;
+          stroke-width:20"/>
+</svg>
+
+<svg width="2000" height="500">
+    <polyline style="stroke-linejoin:miter;
+stroke:black; stroke-width:12; fill:none;"
+              points="100 100, 150 150, 200 100"/>
+</svg>
+
+<svg height="500" width="1000">
+    <ellipse rx=" 150" ry="70" cx="200" cy="100"
+             style="fill:green"/>
+</svg>
+
+<svg width="2000" height="2000">
+    <polygon points="100 100, 200 200, 300 0"
+             style="fill:green; stroke:black;"/>
+</svg>
+
+<svg width="1000" height="250">
+    <rect width="150" height="150" fill="orange">
+        <animate attributeName="x" from="0" to="300"
+                 dur="3s" fill="freeze" repeatCount="2"/>
+    </rect>
+</svg>
+
+<svg width="500" height="500">
+    <path d="M 0 0 L200 200 L200 0 Z" style="stroke:#000; fill:none;"/>
+</svg>
+
+<canvas id="canvas1" width="200" height="100">
+</canvas>
+
+ctx.font="bold 22px Tahoma";
+ctx.textAlign="start";
+ctx.fillText("start", 10, 30);
+
+<form>
+    <label> Your name:</label>
+    <input id="user" name="username" type="text"/>
+</form>
+
+<form>
+    <label id="email">Your e-mail address:</label>
+    <input type="text" name="email"
+           placeholder="email@example.com"/>
+</form>
+
+<form>
+    <label for="email"> Your e-mail address:</label>
+    <input type="text" name="email" autofocus/>
+</form>
+<br/>
+<form autocomplete="off">
+    <label for="email">Your e-mail address:</label>
+    <input name="Email" type="text" required/>
+    <input type="submit" value="Submit"/>
+</form>
+<br/>
+<input id="mysearch" name="searchitem" type="search"/>
+<br/>
+<input id="car" type="text" list="colors"/>
+<datalist id="colors">
+    <option value="Red">
+    <option value="Green">
+    <option value="Yellow">
+</datalist>
+<br/>
+<input id="email" name="email" type="email"
+       placeholder="email@example.com"/>
+<br/>
+<input id="url" name="url" type="url"
+       placeholder="example.com"/>
+<br/>
+<input id="tel" name="tel" type="tel"
+       placeholder="555.555.1211"/>
+
+</body>
+</html>
