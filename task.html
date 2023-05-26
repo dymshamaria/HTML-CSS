@@ -6,13 +6,13 @@
 <head>
     <title>first page</title>
 </head>
-<body bgcolor="#FFFFFF">
+<body>
 <h1>This is heading 1</h1>
 <h2>This ia heading 2</h2>
 <h3>This is heading 3</h3>
 <h4>This is heading 4</h4>
 <p>This is paragraph</p>
-<hr />
+<hr/>
 <p>This is paragraph</p>
 <!-- This is a comment -->
 <p>This is a paragraph.</p>
@@ -25,8 +25,12 @@
 <p><strong>strong text</strong></p>
 <p><sub> subscripted text</sub></p>
 <p><sup>superscripted text</sup></p>
-<p><ins>inserted text</ins></p>
-<p><del> deleted text</del></p>
+<p>
+    <ins>inserted text</ins>
+</p>
+<p>
+    <del> deleted text</del>
+</p>
 <h1><span>About Me</span></h1>
 <p>
     Hey! I'm <strong>Alex</strong>.Coding has changed my world ...
@@ -37,14 +41,15 @@
 <p align="center">
     This text is aligned to center
 </p>
-<hr width="50px" />
-<hr width="50%" />
+<hr width="50px"/>
+<hr width="50%"/>
 <p align="center">This is a text <br/>
-<hr width="10%" align="right" /> This is also a text.
+<hr width="10%" align="right"/>
+This is also a text.
 </p>
 <p align="center">
     This is a text.
-    <hr width="50%" align="left"/>
+<hr width="50%" align="left"/>
 </p>
 <img src="image.jpg"/>
 <img src="tree.jpg" alt=""/>
@@ -52,22 +57,26 @@
 <!-- or -->
 <img src="tree.jpg" height="50%" width="50%" alt=""/>
 <img src="tree.jpg" height="150px" width="150px" border="1px" alt=""/>
+
 <ol>
     <li>Red</li>
     <li>Blue</li>
     <li>Green</li>
 </ol>
+
 <ul>
     <li>Red</li>
     <li>Blue</li>
     <li>Green</li>
 </ul>
+
 <h1><span> My Skills </span></h1>
 <ul>
-    <li> HTML </li>
-    <li> CSS </li>
-    <li> JavaScript </li>
+    <li> HTML</li>
+    <li> CSS</li>
+    <li> JavaScript</li>
 </ul>
+
 <table>
     <tr>
         <td></td>
@@ -75,39 +84,43 @@
         <td></td>
     </tr>
 </table>
-    <table border="2">
-        <tr>
-            <td> Red </td>
-            <td> Blue </td>
-            <td> Green </td>
-        </tr>
-        <tr>
-            <td><br/></td>
-            <td> colspan="2"<br/></td>
-        </tr>
-    </table>
+
 <table border="2">
     <tr>
-        <td> Red </td>
-        <td> Blue </td>
-        <td> Green </td>
+        <td> Red</td>
+        <td> Blue</td>
+        <td> Green</td>
+    </tr>
+    <tr>
+        <td><br/></td>
+        <td> colspan="2"<br/></td>
+    </tr>
+</table>
+
+<table border="2">
+    <tr>
+        <td> Red</td>
+        <td> Blue</td>
+        <td> Green</td>
     </tr>
     <tr>
         <td>Yellow</td>
-        <td colspan="2"> Orange </td>
+        <td colspan="2"> Orange</td>
     </tr>
 </table>
+
 <table border="2">
     <tr>
-        <td bgcolor="red"> Red </td>
+        <td bgcolor="red"> Red</td>
         <td>Blue</td>
         <td>Green</td>
     </tr>
     <tr>
         <td>Yellow</td>
-        <td colspan="2"> Orange </td>
+        <td colspan="2"> Orange</td>
     </tr>
 </table>
+
 <a href=""></a>
 <a href="http://www.sololearn.com"> Learn Playing</a>
 <a href="http://www.sololearn.com" target="_blank"> Learn Playing </a>
@@ -130,12 +143,12 @@
         <td></td>
     </tr>
     <tr>
-    <td>9-10</td>
-    <td></td>
-    <td class="selected"> Practice</td>
-    <td></td>
-    <td></td>
-    <td></td>
+        <td>9-10</td>
+        <td></td>
+        <td class="selected"> Practice</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>1-1:30</td>
@@ -162,34 +175,40 @@
         <td class="selected"> Discuss</td>
     </tr>
 </table>
+
 <h1>Headline</h1>
 <div style="background-color:green; color:white; padding:20px;">
-<p>Some paragraph text goes here.</p>
-<p>Another paragraph goes here.</p>
+    <p>Some paragraph text goes here.</p>
+    <p>Another paragraph goes here.</p>
 </div>
+
 <h2>Some
-<span style="color:red"> Important </span> Message </h2>
+    <span style="color:red"> Important </span> Message </h2>
+
 <form></form>
 <form action="http://www.sololearn.com"></form>
 <form action="url" method="GET"></form>
 <form action="url" method="POST"></form>
 <form>
-    <input type="text" name="username" /><br/>
-    <input type="password" name="password" />
+    <input type="text" name="username"/><br/>
+    <input type="password" name="password"/>
 </form>
-<input type="radio" name="gender" value="male" /> Male
+
+<input type="radio" name="gender" value="male"/> Male
 <br/>
-<input type="radio" name="gender" value="female" /> Female
-<input type="checkbox" name="gender" value="1" /> Male
-<input type="checkbox" name="gender" value="2" /> Female <br/>
-<input type="submit" value="Submit" />
+<input type="radio" name="gender" value="female"/> Female
+<input type="checkbox" name="gender" value="1"/> Male
+<input type="checkbox" name="gender" value="2"/> Female <br/>
+<input type="submit" value="Submit"/>
+
 <h1><span>Contact Me</span></h1>
 <form>
-    <input name="name" type="text" /><br/>
-    <input name="email" type="email" /><br/>
+    <input name="name" type="text"/><br/>
+    <input name="email" type="email"/><br/>
     <textarea name="message"></textarea>
-    <input type="submit" value="SEND" class="submit" />
+    <input type="submit" value="SEND" class="submit"/>
 </form>
+
 <h1>
     <font color="#0FFFFF">White headline</font>
 </h1>
@@ -197,14 +216,15 @@
 <frameset cols="25%,50%,25%">
     <frame src="a.html"/>
     <frame src="b.html"/>
-    <frame src="c.html" />
+    <frame src="c.html"/>
     <noframes>Frames not supported!</noframes>
 </frameset>
+
 <div class="section">
     <h1><span>My Media</span></h1>
     <iframe height="150" width="300"
             src="https://www.youtube.com/embed/Q6_5InVJZ88"
-    allowfullscreen frameborder="0"></iframe>
+            allowfullscreen frameborder="0"></iframe>
 </div>
 <body>
 </html>
