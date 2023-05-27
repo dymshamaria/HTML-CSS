@@ -1,0 +1,422 @@
+<p style="color:white; background-color:gray;">
+This ia an example of inline styling.
+</p>
+
+<html>
+<head>
+<style>
+p {
+color:white;
+background-color:gray;
+}
+</style>
+</head>
+<body>
+<p>This is my first paragraph.</p>
+<p>This is my second paragraph.</p>
+</body>
+</html>
+
+<html>
+<head>
+<link rel="stylesheet" href="example.css">
+</head>
+<body>
+<p>This is my first paragraph.</p>
+<p>This is my second paragraph.</p>
+<p>This is my third paragraph.</p>
+</body>
+</html>
+
+p {
+color:white;
+background-color:gray;
+}
+
+h1 { color: orange; }
+
+p {
+color: red;
+font-size:130%;
+}
+
+<div id="intro">
+<p> This paragraph is in the intro section.</p>
+</div>
+<p> This paragraph is not in the intro section. </p>
+
+#intro {
+color: white;
+background-color: gray;
+}
+
+<div>
+<p class="first">This is a paragraph</p>
+<p> This is the second paragraph. </p>
+</div>
+<p class="first"> This is not in the intro section</p>
+<p> The second paragraph is not in the intro section.
+</p>
+
+.first {font-size: 200%;}
+
+<div id="intro">
+<p class="first">This is a <em> paragraph.<em></p>
+<p> This is the second paragraph. </p>
+</div>
+<p class="first"> This is not in the intro section.</p>
+<p> The second paragraph is not in the intro section.
+</p>
+
+#intro .first em {
+color:pink;
+background-color:gray;
+}
+
+/* Comment goes here */
+
+<p class="serif">
+   This is a paragraph shown in serif font.
+</p>
+<p class="sansserif">
+   This is a paragraph shown in sans-serif font.
+</p>
+<p class="monospace">
+   This is a paragraph shown in monospace font.
+</p>
+<p class="cursive">
+   This is a paragraph shown in cursive font.
+</p>
+<p class="fantasy">
+   This is a paragraph shown in fantasy font.
+</p>
+
+p.serif {
+font-family: "Times New Roman", Times, serif;
+}
+p.sansserif {
+font-family: Helvetica, Arial, sans-serif;
+}
+p.monospace {
+font-family: "Courier New", Courier, monospace;
+}
+p.cursive {
+font-family: Florence, cursive;
+}
+p.fantasy {
+font-family: Blippo, fantasy;
+}
+
+<p class="small">
+   Paragraph text set to be small
+</p>
+<p class="medium">
+   Paragraph text set to be medium
+</p>
+<p class="large">
+   Paragraph text set to be large
+</p>
+<p class="xlarge">
+   Paragraph text set to be very large
+</p>
+
+p.small {
+font-size: small;
+}
+p.medium {
+font-size: medium;
+}
+p.large {
+font-size: large;
+}
+p.xlarge {
+font-size: x-large;
+}
+
+h1 {
+font-size: 20px;
+}
+/*   em=pixels/16   */
+h1 {
+font-size: 1.25em;
+}
+
+<p class="italic">This is a paragraph in italic style.
+</p>
+p.italic {
+font-style: italic;
+}
+
+<p class="normal">This paragraph is normal.</p>
+<p class="italic">This paragraph is italic.</p>
+<p class="oblique">This paragraph is oblique.</p>
+
+p.normal {
+font-style: normal;
+}
+p.italic {
+font-style: italic;
+}
+p.oblique {
+font-style: oblique;
+}
+
+<p class="light">This is a font with a "lighter" weight.</p>
+<p class="bold">This is a font with a "bold" weight.</p>
+<p class="bolder">This is a font with a "bolder" weight.</p>
+
+p.light {
+font-weight: lighter;
+}
+p.bold {
+font-weight: bold;
+}
+p.bolder {
+font-weight: bolder;
+}
+
+<p class="light">This is a font with a "lighter" weight.</p>
+<p class="thick">This is a font with a "bold" weight.</p>
+<p class="thicker">This is a font with a "700" weight.</p>
+
+p.light {
+font-weight: lighter;
+}
+p.thick {
+font-weight: bold;
+}
+p.thicker {
+font-weight: 700;
+}
+
+<p class="normal">Paragraph font variant set to normal.</p>
+<p class="small">Paragraph font variant set to small-caps.</p>
+
+p.normal {
+font-variant: normal;
+}
+p.small {
+font-variant: small-caps;
+}
+
+<p class="example">The text inside the paragraph is green.</p>
+The text outside the paragraph is black (by default).
+
+p.example {
+color: green;
+}
+
+<h1>This is a heading</h1>
+<p class="example">This is a paragraph</p>
+
+h1 {
+color: #0000FF;
+}
+p.example {
+color: rgb(255,0,0);
+}
+
+<p class="left">This paragraph is aligned to <strong>left.</strong></p>
+<p class="right">This paragraph is aligned to <strong>right.</strong></p>
+<p class="center">This paragraph is aligned to <strong>center.</strong></p>
+
+p.left {
+text-align: left;
+}
+p.right {
+text-align: right;
+}
+p.center {
+text-align: center;
+}
+
+<table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+  <tr>
+     <td class="top">Top</td>
+     <td class="middle">Middle</td>
+     <td class="bottom">Bottom</td>
+  </tr>
+</table>
+
+td.top {
+vertical-align: top;
+}
+td.middle {
+vertical-align: middle;
+}
+td.bottom {
+vertical-align: bottom;
+}
+
+<p>This is an <span class="baseline">inline text</span> example.</p>
+<p>This is a <span class="sub">sub line text</span> example.</p>
+<p> This is a <span class="super">super line text</span> example.</p>
+<p> This is a <span class="pixel">pixel</span> example.</p>
+
+span.baseline {
+vertical-align:baseline;
+}
+span.sub {
+vertical-align:sub;
+}
+span.super{
+vertical-align:super;
+}
+span.pixel{
+vertical-align:-10px;
+}
+
+<div class="main">
+   <div class="paragraph">
+   This text is aligned to the middle
+   </div>
+</div>
+
+.main {
+height: 150px; width: 400px;
+background-color: LightSkyBlue;
+display: inline-table;
+}
+.paragraph {
+display: table-cell;
+vertical-align: middle;
+}
+
+<p class="none">This is default style of the text (none).</p>
+<p class="inherit">This text inherits the decoration of the parent.</p>
+<p class="overline">This is overlined text.</p>
+<p class="underline">This is underlined text.</p>
+<p class="line-through">This is lined-through text.</p>
+
+p.none {
+text-decoration: none;
+}
+p.inherit {
+text-decoration: inherit;
+}
+p.overline {
+text-decoration: overline;
+}
+p.underline {
+text-decoration: underline;
+}
+p.line-through {
+text-decoration: line-through;
+}
+
+<p>This is an example of
+<strong>text-indent </strong> property.
+First line of our text is indented to the right in 60px.
+Besides pixels you can also use other measurement units,
+like pt, cm, em, etc. </p>
+
+p {
+text-indent: 60px;
+}
+
+<h1>Text-shadow example</h1>
+
+h1 {
+color: blue;
+font-size: 30pt;
+text-shadow: 5px 2px 4px grey;
+}
+
+<h1>Text-shadow with blur effect</h1>
+
+h1 {
+font-size: 20pt;
+text-shadow: rgba(0,0,255,1) -1px -2px 0.5em;
+}
+
+<p class="capitalize">
+    The value capitalize transforms the first
+    character in each word to uppercase;
+    all other characters remain unaffected.
+</p>
+
+p.capitalize {
+text-transforms: capitalize;
+}
+
+<p class="uppercase">This value transforms all characters to uppercase.</p>
+<p class="lowercase">This value transforms all characters to lowercase.</p>
+
+p.uppercase {
+text-transform: uppercase;
+}
+p.lowercase {
+text-transform: lowercase;
+}
+
+<p class="normal">This paragraph has no additional letter-spacing applied.</p>
+<p class="positive ">This paragraph is letter-spaced at 4px.</p>
+
+p.normal {
+letter-spacing: normal;
+}
+p.positive {
+letter-spacing: 4px;
+}
+
+<p class="positive">This paragraph is letter-spaced at 4px.</p>
+<p class="negative">This paragraph is letter-spaced at -1.5px</p>
+
+p.positive {
+letter-spacing: 4px;
+}
+p.negative {
+letter-spacing: -1.5px;
+}
+
+<p class="normal">This paragraph has no additional word-spacing applied.</p>
+<p class="px">This paragraph is word-spaced at 30px.</p>
+
+p.normal {
+word-spacing: normal;
+}
+p.px {
+word-spacing: 30px;
+}
+
+<p class="positive">This paragraph is word-spaced at 20px.</p>
+<p class="negative">This paragraph is word-spaced at -5px.</p>
+
+p.positive {
+word-spacing: 20px;
+}
+p.negative {
+word-spacing: -5px;
+}
+
+<p>
+This paragraph has         multiple spaces      and
+a line break, but it will be ignored, as we used the nowrap value.
+</p>
+
+p {
+white-space: nowrap;
+}
+
+<p class="pre">
+In the markup we have multiple            spaces
+and a line break.
+</p>
+<p class="preline">
+In the markup we have multiple            spaces
+and a line break, but in the result multiple spaces are ignored.
+</p>
+<p class="prewrap">
+In the markup we have              multiple
+spaces and a line break.
+</p>
+
+p.pre {
+white-space: pre;
+}
+p.preline {
+ white-space: pre-line;
+ }
+ p.prewrap {
+ white-space: pre-wrap;
+ }
