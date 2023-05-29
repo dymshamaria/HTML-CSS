@@ -1,0 +1,125 @@
+<span>First paragraph.</span>
+<span>Second paragraph.</span>
+<span>Third paragraph.</span>
+<span>Fourth paragraph.</span>
+<span>Fifth paragraph.</span>
+
+span {
+display: block;
+}
+p {
+display: inline;
+}
+
+<h1>This text will not display, as we set the value to none.</h1>
+<p>Headline of this paragraph is not displayed, as we set the value to none.</p>
+
+h1 {
+display: none;
+}
+
+<h1>This is a heading</h1>
+<div class="hidden">
+   This text will not display in browser.
+</div>
+<p>
+   The space above this paragraph is empty because
+   the visibility of the div element is set to hidden.
+</p>
+
+div.hidden {
+visibility: hidden;
+}
+
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p>Paragraph with no position.</p>
+<p class="position_static">This paragraph has a static position.</p>
+
+p.position_static {
+position:static;
+top: 30px;
+right: 5px;
+color: red;
+}
+
+p.position_static {
+position: fixed;
+top: 30px;
+right: 5px;
+color: red;
+}
+
+p {
+width: 350px;
+border: 1px black solid;
+position: fixed;
+}
+span {
+background: green;
+color:white;
+position:relative;
+top: 150px;
+left: 50px;
+}
+
+<p><img src="css_logo.png" />
+This paragraph has an image that is floated to the <strong>right.</strong>
+It is highly recommended to add a margin to images so that the text does
+not get too close to the image. If you want your text to be easily read, you
+should always add a few pixels between words and borders, images,
+and other content.
+</p>
+
+img {
+float: right;
+}
+
+img {
+float: left;
+width: 120px;
+margin-right: 10px;
+}
+p {
+width: 120px;
+float: left;
+}
+
+This paragraph is above the div element
+and is not affected by the float right property.
+<br /><br />
+<div class="floating">
+   <img src="css_logo.png" />
+</div>
+This paragraph comes after the div element
+and is affected by the float right property.
+<br /><br />
+This paragraph also comes after the div element
+and is affected by the float right property.
+<br /> <br />
+
+.floating {
+float: right;
+}
+
+This paragraph is above the div element
+and is not affected by the float right property.
+<br/><br/>
+<div class="floating">
+   <img src="css_logo.png" />
+</div>
+This paragraph comes after the div element
+and is affected by the float right property.
+<br/><br class="clearing"/>
+This paragraph is out of the floating group
+and is not affected by the float right property.
+<br/> <br/>
+
+.floating {
+float: right;
+}
+.clearing {
+clear: both;
+}
